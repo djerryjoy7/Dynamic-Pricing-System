@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Pricing System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadProducts()">
+
+
+  <h1>Dynamic Pricing System</h1>
+
+  <div class="card admin">
+    <h2>👨‍💼 Admin Panel</h2>
+    <p class="hint">Manage products and stock</p>
+  
+    <h2>Add Product</h2>
+
+    <input id="name" placeholder="Product Name">
+    <input id="price" type="number" placeholder="Base Price">
+    <input id="stock" type="number" placeholder="Stock Quantity">
+
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <div class="card user">
+    <h2>🛒 Customer View</h2>
+    <p class="hint">View dynamically updated prices</p>
+  
+    <h2>Products</h2>
+    <button onclick="loadProducts()">Refresh</button>
+    <div id="products"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* ===== GLOBAL ===== */
+* {
+    box-sizing: border-box;
+    font-family: "Inter", "Segoe UI", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #e5e7eb;
+  }
+  
+  /* ===== HEADER ===== */
+  h1 {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    font-size: 32px;
+    background: linear-gradient(90deg, #2563eb, #06b6d4);
+    color: white;
+  }
+  
+  /* ===== CONTAINER ===== */
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  /* ===== CARD BASE ===== */
+  .card {
+    background: #020617;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+    border-left: 6px solid;
+  }
+  
+  /* ===== ADMIN PANEL ===== */
+  .admin {
+    border-color: #2563eb;
+  }
+  
+  .admin h2 {
+    color: #93c5fd;
+  }
+  
+  /* ===== CUSTOMER PANEL ===== */
+  .customer {
+    border-color: #22c55e;
+  }
+  
+  .customer h2 {
+    color: #86efac;
+  }
+  
+  /* ===== FORM ===== */
+  input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 15px;
+  }
+  
+  input::placeholder {
+    color: #64748b;
+  }
+  
+  button {
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* ===== PRODUCT LIST ===== */
+  .product {
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  /* ===== PRICE STATES ===== */
+  .price-up {
+    color: #f87171;
+    font-weight: bold;
+  }
+  
+  .price-down {
+    color: #4ade80;
+    font-weight: bold;
+  }
+  
+  .price-same {
+    color: #e5e7eb;
+    font-weight: bold;
+  }
+  
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+    font-size: 14px;
+  }
+  
